@@ -1,0 +1,59 @@
+@font-face {
+  font-family: math;
+  src: url(../fonts/math-font.ttf);
+}
+body {
+  background-color: rgb(225, 138, 152) !important;
+}
+body,
+form input::placeholder,
+.calculate {
+  font-family: math;
+}
+form {
+  width: 400px;
+  height: fit-content;
+  padding: 40px;
+  background-color: white;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+  font-size: 30px;
+  border-radius: 30px;
+}
+h1 {
+  text-align: center;
+}
+form input,
+.calculate,
+form input::placeholder {
+  font-size: 28px;
+}
+form input {
+  width: 80%;
+  height: 50px;
+  padding-left: 4px;
+  margin-bottom: 15px;
+  outline: none;
+}
+form input::placeholder {
+  padding-left: 4px;
+}
+.form-label {
+  margin-right: auto;
+  margin-left: 40px;
+}
+.calculate {
+  border: none;
+  width: 80%;
+  background-color: pink;
+  height: 45 px;
+}
+.calculate:hover {
+  background-color: rgb(250, 159, 175);
+  transition: all 300ms;
+  cursor: pointer;
+}
